@@ -1,6 +1,20 @@
+.btamanio{
+    width: 90px;
+    cursor: pointer ;
+}
 #papa1{
     background-color: #0023cc;
 }
 #papa2{
     background-color: #cc0016;
+    position: relative;
+    display: block;
+    -moz-transition:300ms all ease-out;
+}
+#papa2:hover{
+    background-color: #cc9c30;
+    width: 150px;
+}
+.clase{
+    border: 2px solid #000000;
 }
